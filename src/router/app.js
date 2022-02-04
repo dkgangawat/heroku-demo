@@ -51,5 +51,8 @@ app.post('/login',async (req,res)=>{
     }
     
 })
+app.get("/",(req,res)=>{
+    res.render('index');
+})
  
 app.listen(port);
